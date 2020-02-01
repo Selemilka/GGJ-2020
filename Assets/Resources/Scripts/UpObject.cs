@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class UpObject : MonoBehaviour
 {
-    private void OnCollision2D(Collision2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("something happened");
         }
