@@ -8,13 +8,10 @@ public class OpenDoor : MonoBehaviour
     public Camera Camera;
 
 
-    void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
-        {
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
-            player.transform.position = PlayerPoint.position;
-            Camera.transform.position = CameraPoint.position;
-        }
+        Debug.Log("khgib");
+        collision.transform.position = PlayerPoint.position;
+        Camera.transform.position = CameraPoint.position;
     }
 }
