@@ -31,6 +31,8 @@ public class AudioManager : MonoBehaviour
 
 			s.source.outputAudioMixerGroup = mixerGroup;
 		}
+
+        Play(AudioNames.MusicB);
 	}
 
 	public void Play(string sound, bool restart = true, float fadeTime = 0)

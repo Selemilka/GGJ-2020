@@ -20,4 +20,5 @@ public static class AudioNames
     public const string DoorA = "DoorA";
     public const string DoorB = "DoorB";
     public const string MusicA = "MusicA";
+    public const string MusicB = "MusicB";
 }
