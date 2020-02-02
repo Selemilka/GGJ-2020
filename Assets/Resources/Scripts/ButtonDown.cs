@@ -9,6 +9,7 @@ public class ButtonDown : MonoBehaviour
     {
         if(collision.tag == "Box")
         {
+            Debug.Log("perssed");
             // Will attach a VideoPlayer to the main camera.
         GameObject camera = GameObject.Find("Main Camera");
 

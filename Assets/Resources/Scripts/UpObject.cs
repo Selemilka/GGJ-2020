@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Video;
 using UnityEngine;
 
 public class UpObject : MonoBehaviour
 {
     public GameObject Object;
 
+    public VideoPlayer videoPlayer;
+    
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (Input.GetKeyDown(KeyCode.Space) && collision.GetComponent<Animator>().GetBool("HaveBox") == false && Object.tag == "Box")
@@ -16,6 +19,7 @@ public class UpObject : MonoBehaviour
             FindObjectOfType<AudioManager>().Play(AudioNames.PickUp);
             Destroy(Object);
             SubtitesManager.Instance.ShowSubtitle("О, эта коробка выглядит так, словно я могу поставить её на ту большую красную кнопку", 5000);
+            videoPlayer.Play();
         }
         if (Input.GetKeyDown(KeyCode.Space) && collision.GetComponent<Animator>().GetBool("HaveH") == false && Object.tag == "Hummer")
         {
