@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveVelocity;
     private Animator anim;
+    private bool wasMoving = false;
 
     void Start()
     {
@@ -25,6 +26,14 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetFloat("LastMoveX", moveInput.x);
             anim.SetFloat("LastMoveY", moveInput.y);
+            FindObjectOfType<AudioManager>().Play("steps", restart: false);
+            wasMoving = true;
+        }
+        else
+        {
+            if (wasMoving)
+                FindObjectOfType<AudioManager>().Stop("steps");
+            wasMoving = false;
         }
         moveVelocity = moveInput.normalized * speed;
     }
