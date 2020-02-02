@@ -50,6 +50,87 @@ public class PlayerController : MonoBehaviour
                 return;
             }
         }
+        if (anim.GetBool("HaveH") == true && Input.GetKeyDown(KeyCode.Space))
+        {
+            if (Input.GetAxisRaw("Horizontal") == 1 || anim.GetFloat("LastMoveX") == 1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x + 1, this.transform.position.y), Quaternion.identity);
+                anim.SetBool("HaveH", false);
+                return;
+            }
+            if (Input.GetAxisRaw("Horizontal") == -1 || anim.GetFloat("LastMoveX") == -1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x - 1, this.transform.position.y), Quaternion.identity);
+                anim.SetBool("HaveH", false);
+                return;
+            }
+            if (Input.GetAxisRaw("Vertical") == 1 || anim.GetFloat("LastMoveY") == 1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y + 1), Quaternion.identity);
+                anim.SetBool("HaveH", false);
+                return;
+            }
+            if (Input.GetAxisRaw("Vertical") == -1 || anim.GetFloat("LastMoveY") == -1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y - 1), Quaternion.identity);
+                anim.SetBool("HaveH", false);
+                return;
+            }
+        }
+        if (anim.GetBool("HaveBH") == true && Input.GetKeyDown(KeyCode.Space))
+        {
+            if (Input.GetAxisRaw("Horizontal") == 1 || anim.GetFloat("LastMoveX") == 1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x + 1, this.transform.position.y), Quaternion.identity);
+                anim.SetBool("HaveBH", false);
+                return;
+            }
+            if (Input.GetAxisRaw("Horizontal") == -1 || anim.GetFloat("LastMoveX") == -1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x - 1, this.transform.position.y), Quaternion.identity);
+                anim.SetBool("HaveBH", false);
+                return;
+            }
+            if (Input.GetAxisRaw("Vertical") == 1 || anim.GetFloat("LastMoveY") == 1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y + 1), Quaternion.identity);
+                anim.SetBool("HaveBH", false);
+                return;
+            }
+            if (Input.GetAxisRaw("Vertical") == -1 || anim.GetFloat("LastMoveY") == -1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y - 1), Quaternion.identity);
+                anim.SetBool("HaveBH", false);
+                return;
+            }
+        }
+        if (anim.GetBool("HaveTape") == true && Input.GetKeyDown(KeyCode.Space))
+        {
+            if (Input.GetAxisRaw("Horizontal") == 1 || anim.GetFloat("LastMoveX") == 1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x + 1, this.transform.position.y), Quaternion.identity);
+                anim.SetBool("HaveTape", false);
+                return;
+            }
+            if (Input.GetAxisRaw("Horizontal") == -1 || anim.GetFloat("LastMoveX") == -1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x - 1, this.transform.position.y), Quaternion.identity);
+                anim.SetBool("HaveTape", false);
+                return;
+            }
+            if (Input.GetAxisRaw("Vertical") == 1 || anim.GetFloat("LastMoveY") == 1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y + 1), Quaternion.identity);
+                anim.SetBool("HaveTape", false);
+                return;
+            }
+            if (Input.GetAxisRaw("Vertical") == -1 || anim.GetFloat("LastMoveY") == -1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y - 1), Quaternion.identity);
+                anim.SetBool("HaveTape", false);
+                return;
+            }
+        }
         if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
         {
             anim.SetFloat("LastMoveX", moveInput.x);
