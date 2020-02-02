@@ -9960,7 +9960,7 @@ MonoBehaviour:
     source: {fileID: 0}
     spatialBlend: 0
   - name: PickUp
-    clip: {fileID: 8300000, guid: ed3e1be55ebd56e48895a37cf3717d0a, type: 3}
+    clip: {fileID: 8300000, guid: 7fc5a528ded46fd4cbab7c4a2144dc3a, type: 3}
     volume: 1
     volumeVariance: 0
     pitch: 1
@@ -10049,8 +10049,8 @@ MonoBehaviour:
     mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
     source: {fileID: 0}
     spatialBlend: 0
-  - name: steps
-    clip: {fileID: 8300000, guid: 9a5f554ab784d08468ed36b976f3ac4c, type: 3}
+  - name: PutDown
+    clip: {fileID: 8300000, guid: ed3e1be55ebd56e48895a37cf3717d0a, type: 3}
     volume: 1
     volumeVariance: 0
     pitch: 1
