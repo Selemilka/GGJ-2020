@@ -24,7 +24,7 @@ public class UpObject : MonoBehaviour
             collision.GetComponent<Animator>().SetBool("HaveH", true);
             FindObjectOfType<AudioManager>().Play(AudioNames.PickUp);
             Destroy(Object);
-            SubtitesManager.Instance.ShowSubtitle("подняли коркакую-то вещьобку", 2000);
+            SubtitesManager.Instance.ShowSubtitle("подняли какую-то вещь", 2000);
         }
         if (Input.GetKeyDown(KeyCode.Space) && collision.GetComponent<Animator>().GetBool("HaveBH") == false && Object.tag == "BigHummer")
         {
