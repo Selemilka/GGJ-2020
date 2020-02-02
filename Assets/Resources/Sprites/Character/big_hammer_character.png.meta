@@ -1,109 +1,43 @@
 fileFormatVersion: 2
-guid: 74d622ccf8a2b78448b01a55f14e0e04
+guid: 2e849702b1273854da18481a06ac16ee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3204573213951073976
-    second: Level0 Furniture_0
+      213: 6033691193557965083
+    second: big_hammer_character_0
   - first:
-      213: 1291647785753634002
-    second: Level0 Furniture_1
+      213: 4803581801915880507
+    second: big_hammer_character_1
   - first:
-      213: -785170041139440217
-    second: Level0 Furniture_2
+      213: -7813561515278001860
+    second: big_hammer_character_2
   - first:
-      213: -6066081239639477821
-    second: Level0 Furniture_3
+      213: 481654623248929565
+    second: big_hammer_character_3
   - first:
-      213: 5821156228664280808
-    second: Level0 Furniture_4
+      213: -3626905060704276973
+    second: big_hammer_character_4
   - first:
-      213: 9081934304348643028
-    second: Level0 Furniture_5
+      213: -6956674545855991268
+    second: big_hammer_character_5
   - first:
-      213: -9111716462076006992
-    second: Level0 Furniture_6
+      213: 1216349452064176538
+    second: big_hammer_character_6
   - first:
-      213: -9151303972090893441
-    second: Level0 Furniture_7
+      213: -6694393383288958179
+    second: big_hammer_character_7
   - first:
-      213: -1593460979096692281
-    second: Level0 Furniture_8
+      213: -5707906093900067577
+    second: big_hammer_character_8
   - first:
-      213: 2782719400595326206
-    second: Level0 Furniture_9
+      213: -1315520675445520243
+    second: big_hammer_character_9
   - first:
-      213: 4182293458934286661
-    second: Level0 Furniture_10
+      213: 2054545182371651897
+    second: big_hammer_character_10
   - first:
-      213: 5471341326909606424
-    second: Level0 Furniture_11
-  - first:
-      213: -2568291659669362737
-    second: Level0 Furniture_12
-  - first:
-      213: 2849468901319043136
-    second: Level0 Furniture_13
-  - first:
-      213: 3306785066874809867
-    second: Level0 Furniture_14
-  - first:
-      213: -6057022186146708872
-    second: Level0 Furniture_15
-  - first:
-      213: 5355313916845344358
-    second: Level0 Furniture_16
-  - first:
-      213: -4817181761945221664
-    second: Level0 Furniture_17
-  - first:
-      213: -5150937575818658011
-    second: Level0 Furniture_18
-  - first:
-      213: -4085729131141581617
-    second: Level0 Furniture_19
-  - first:
-      213: 8744739705409058826
-    second: Level0 Furniture_20
-  - first:
-      213: -6883849624197271934
-    second: Level0 Furniture_21
-  - first:
-      213: 7954650249358534744
-    second: Level0 Furniture_22
-  - first:
-      213: 2548659307342543919
-    second: Level0 Furniture_23
-  - first:
-      213: -8763895670841279676
-    second: Level0 Furniture_24
-  - first:
-      213: -6601771863395164438
-    second: Level0 Furniture_0
-  - first:
-      213: -8550100731926507124
-    second: Level0 Furniture_1
-  - first:
-      213: -7235539859999132667
-    second: Level0 Furniture_2
-  - first:
-      213: 1354041490686908727
-    second: Level0 Furniture_3
-  - first:
-      213: -762460945323267819
-    second: Level0 Furniture_4
-  - first:
-      213: -5152745870890211953
-    second: Level0 Furniture_5
-  - first:
-      213: -8127500947410581727
-    second: Level0 Furniture_6
-  - first:
-      213: 7035514543324941268
-    second: Level0 Furniture_7
-  - first:
-      213: 8420927953204233415
-    second: Level0 Furniture_8
+      213: 6197502179020919019
+    second: big_hammer_character_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -184,49 +118,16 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Level0 Furniture_0
+      name: big_hammer_character_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 84
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aee992ac77bc164a0800000000000000
-      internalID: -6601771863395164438
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level0 Furniture_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 52
-        width: 16
+        y: 96
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -235,125 +136,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8196b74fa0f75980800000000000000
-      internalID: -8550100731926507124
+      spriteID: b19dc643c2afbb350800000000000000
+      internalID: 6033691193557965083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level0 Furniture_2
+      name: big_hammer_character_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b341ab8c230c9a240800000000000000
+      internalID: 4803581801915880507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_hammer_character_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39113b2337a09390800000000000000
+      internalID: -7813561515278001860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_hammer_character_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 52
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 504729635d2369b90800000000000000
-      internalID: -7235539859999132667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level0 Furniture_3
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 40
-        width: 31
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 739988fcf858ac210800000000000000
-      internalID: 1354041490686908727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level0 Furniture_4
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 60
-        width: 32
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 519e5e65fc13b65f0800000000000000
-      internalID: -762460945323267819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level0 Furniture_5
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 51
-        width: 15
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f856abb4ee4cd78b0800000000000000
-      internalID: -5152745870890211953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level0 Furniture_6
-      rect:
-        serializedVersion: 2
-        x: 48
         y: 64
-        width: 16
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12701fd13f0553f80800000000000000
-      internalID: -8127500947410581727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level0 Furniture_7
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 60
         width: 32
-        height: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4db4afe833b23a160800000000000000
-      internalID: 7035514543324941268
+      spriteID: d135d23f35e2fa600800000000000000
+      internalID: 481654623248929565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level0 Furniture_8
+      name: big_hammer_character_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 84
-        width: 48
-        height: 12
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,8 +220,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c445e18b552dd470800000000000000
-      internalID: 8420927953204233415
+      spriteID: 31ea7ae3015aaadc0800000000000000
+      internalID: -3626905060704276973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_hammer_character_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12704ccb5de47f90800000000000000
+      internalID: -6956674545855991268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_hammer_character_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99b605d16751e010800000000000000
+      internalID: 1216349452064176538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_hammer_character_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d131652bfacb813a0800000000000000
+      internalID: -6694393383288958179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_hammer_character_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d8ccd36a179c0b0800000000000000
+      internalID: -5707906093900067577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_hammer_character_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8843656ae45ebde0800000000000000
+      internalID: -1315520675445520243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_hammer_character_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931a04a35f5338c10800000000000000
+      internalID: 2054545182371651897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_hammer_character_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be050436563f10650800000000000000
+      internalID: 6197502179020919019
       vertices: []
       indices: 
       edges: []
