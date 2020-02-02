@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveVelocity;
     private Animator anim;
     private bool wasMoving = false;
+    public GameObject Box;
 
     void Start()
     {
@@ -22,6 +23,10 @@ public class PlayerController : MonoBehaviour
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         anim.SetFloat("MoveX", moveInput.x);
         anim.SetFloat("MoveY", moveInput.y);
+        if(anim.GetBool("HaveBox") == true || Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(Box, this.transform.position, Quaternion.identity);
+        }
         if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
         {
             anim.SetFloat("LastMoveX", moveInput.x);
