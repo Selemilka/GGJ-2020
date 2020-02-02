@@ -10055,7 +10055,7 @@ MonoBehaviour:
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
-    loop: 1
+    loop: 0
     mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
     source: {fileID: 0}
     spatialBlend: 0
