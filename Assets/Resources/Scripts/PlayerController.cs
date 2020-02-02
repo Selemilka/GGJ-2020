@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveVelocity;
     private Animator anim;
     private bool wasMoving = false;
-    public GameObject Box;
+    public GameObject Box, Hummer, BigHummer, Tape;
 
     void Start()
     {
@@ -29,24 +29,28 @@ public class PlayerController : MonoBehaviour
             {
                 Instantiate(Box, new Vector2(this.transform.position.x + 1, this.transform.position.y), Quaternion.identity);
                 anim.SetBool("HaveBox", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
             if (Input.GetAxisRaw("Horizontal") == -1 || anim.GetFloat("LastMoveX") == -1)
             {
                 Instantiate(Box, new Vector2(this.transform.position.x - 1, this.transform.position.y), Quaternion.identity);
                 anim.SetBool("HaveBox", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
             if (Input.GetAxisRaw("Vertical") == 1 || anim.GetFloat("LastMoveY") == 1)
             {
                 Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y + 1), Quaternion.identity);
                 anim.SetBool("HaveBox", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
             if (Input.GetAxisRaw("Vertical") == -1 || anim.GetFloat("LastMoveY") == -1)
             {
                 Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y -1), Quaternion.identity);
                 anim.SetBool("HaveBox", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
         }
@@ -54,26 +58,30 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetAxisRaw("Horizontal") == 1 || anim.GetFloat("LastMoveX") == 1)
             {
-                Instantiate(Box, new Vector2(this.transform.position.x + 1, this.transform.position.y), Quaternion.identity);
+                Instantiate(Hummer, new Vector2(this.transform.position.x + 1, this.transform.position.y), Quaternion.identity);
                 anim.SetBool("HaveH", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
             if (Input.GetAxisRaw("Horizontal") == -1 || anim.GetFloat("LastMoveX") == -1)
             {
-                Instantiate(Box, new Vector2(this.transform.position.x - 1, this.transform.position.y), Quaternion.identity);
+                Instantiate(Hummer, new Vector2(this.transform.position.x - 1, this.transform.position.y), Quaternion.identity);
                 anim.SetBool("HaveH", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
             if (Input.GetAxisRaw("Vertical") == 1 || anim.GetFloat("LastMoveY") == 1)
             {
-                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y + 1), Quaternion.identity);
+                Instantiate(Hummer, new Vector2(this.transform.position.x, this.transform.position.y + 1), Quaternion.identity);
                 anim.SetBool("HaveH", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
             if (Input.GetAxisRaw("Vertical") == -1 || anim.GetFloat("LastMoveY") == -1)
             {
-                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y - 1), Quaternion.identity);
+                Instantiate(Hummer, new Vector2(this.transform.position.x, this.transform.position.y - 1), Quaternion.identity);
                 anim.SetBool("HaveH", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
         }
@@ -81,26 +89,30 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetAxisRaw("Horizontal") == 1 || anim.GetFloat("LastMoveX") == 1)
             {
-                Instantiate(Box, new Vector2(this.transform.position.x + 1, this.transform.position.y), Quaternion.identity);
+                Instantiate(BigHummer, new Vector2(this.transform.position.x + 1, this.transform.position.y), Quaternion.identity);
                 anim.SetBool("HaveBH", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
             if (Input.GetAxisRaw("Horizontal") == -1 || anim.GetFloat("LastMoveX") == -1)
             {
-                Instantiate(Box, new Vector2(this.transform.position.x - 1, this.transform.position.y), Quaternion.identity);
+                Instantiate(BigHummer, new Vector2(this.transform.position.x - 1, this.transform.position.y), Quaternion.identity);
                 anim.SetBool("HaveBH", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
             if (Input.GetAxisRaw("Vertical") == 1 || anim.GetFloat("LastMoveY") == 1)
             {
-                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y + 1), Quaternion.identity);
+                Instantiate(BigHummer, new Vector2(this.transform.position.x, this.transform.position.y + 1), Quaternion.identity);
                 anim.SetBool("HaveBH", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
             if (Input.GetAxisRaw("Vertical") == -1 || anim.GetFloat("LastMoveY") == -1)
             {
-                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y - 1), Quaternion.identity);
+                Instantiate(BigHummer, new Vector2(this.transform.position.x, this.transform.position.y - 1), Quaternion.identity);
                 anim.SetBool("HaveBH", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
         }
@@ -108,26 +120,30 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetAxisRaw("Horizontal") == 1 || anim.GetFloat("LastMoveX") == 1)
             {
-                Instantiate(Box, new Vector2(this.transform.position.x + 1, this.transform.position.y), Quaternion.identity);
+                Instantiate(Tape, new Vector2(this.transform.position.x + 1, this.transform.position.y), Quaternion.identity);
                 anim.SetBool("HaveTape", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
             if (Input.GetAxisRaw("Horizontal") == -1 || anim.GetFloat("LastMoveX") == -1)
             {
-                Instantiate(Box, new Vector2(this.transform.position.x - 1, this.transform.position.y), Quaternion.identity);
+                Instantiate(Tape, new Vector2(this.transform.position.x - 1, this.transform.position.y), Quaternion.identity);
                 anim.SetBool("HaveTape", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
             if (Input.GetAxisRaw("Vertical") == 1 || anim.GetFloat("LastMoveY") == 1)
             {
-                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y + 1), Quaternion.identity);
+                Instantiate(Tape, new Vector2(this.transform.position.x, this.transform.position.y + 1), Quaternion.identity);
                 anim.SetBool("HaveTape", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
             if (Input.GetAxisRaw("Vertical") == -1 || anim.GetFloat("LastMoveY") == -1)
             {
-                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y - 1), Quaternion.identity);
+                Instantiate(Tape, new Vector2(this.transform.position.x, this.transform.position.y - 1), Quaternion.identity);
                 anim.SetBool("HaveTape", false);
+                FindObjectOfType<AudioManager>().Play(AudioNames.PutDown);
                 return;
             }
         }
