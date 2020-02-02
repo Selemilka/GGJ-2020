@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1195883632896233976}
   m_Layer: 0
   m_Name: JCOKbox
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -148,4 +148,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 171f459448766704383468f6ffd7ee76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Box: {fileID: 1195883632896233927}
+  Object: {fileID: 1195883632896233927}
