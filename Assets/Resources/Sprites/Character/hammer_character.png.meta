@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: a7e6b4cc74365f144a13eec6acef6d51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2184247109695691749
+    second: hammer_character_0
+  - first:
+      213: 4373816135633125077
+    second: hammer_character_1
+  - first:
+      213: -5688156298212218726
+    second: hammer_character_2
+  - first:
+      213: -3382150523693579784
+    second: hammer_character_3
+  - first:
+      213: 996813329729652351
+    second: hammer_character_4
+  - first:
+      213: 5348789810800082397
+    second: hammer_character_5
+  - first:
+      213: 6401275755790606500
+    second: hammer_character_6
+  - first:
+      213: 2374002699752571877
+    second: hammer_character_7
+  - first:
+      213: -1982890792163914315
+    second: hammer_character_8
+  - first:
+      213: -1470550293457995392
+    second: hammer_character_9
+  - first:
+      213: 5983743867335860660
+    second: hammer_character_10
+  - first:
+      213: 6476962544136049558
+    second: hammer_character_11
+  - first:
+      213: 3008550410492278022
+    second: hammer_character_12
+  - first:
+      213: -3633429460145270584
+    second: hammer_character_13
+  - first:
+      213: -7473019262805752297
+    second: hammer_character_14
+  - first:
+      213: -7682807094255208810
+    second: hammer_character_15
+  - first:
+      213: 603034434932049534
+    second: hammer_character_16
+  - first:
+      213: 1867425584771358665
+    second: hammer_character_17
+  - first:
+      213: -8123461786921120937
+    second: hammer_character_18
+  - first:
+      213: 6954017793960425079
+    second: hammer_character_19
+  - first:
+      213: -6451068282987088768
+    second: hammer_character_20
+  - first:
+      213: -4841955969388691682
+    second: hammer_character_21
+  - first:
+      213: -3986925966041729508
+    second: hammer_character_22
+  - first:
+      213: 3964708152370592124
+    second: hammer_character_23
+  - first:
+      213: -2327210571863642045
+    second: hammer_character_24
+  - first:
+      213: -6488159575084685761
+    second: hammer_character_25
+  - first:
+      213: 5282391722060408044
+    second: hammer_character_26
+  - first:
+      213: 3578333640462645707
+    second: hammer_character_27
+  - first:
+      213: -8642991797504137030
+    second: hammer_character_28
+  - first:
+      213: -429270946198573793
+    second: hammer_character_29
+  - first:
+      213: 7812745707583498234
+    second: hammer_character_30
+  - first:
+      213: 2920355919939498824
+    second: hammer_character_31
+  - first:
+      213: -1291773075021550713
+    second: hammer_character_32
+  - first:
+      213: -837708884439340268
+    second: hammer_character_33
+  - first:
+      213: -3227659699040945328
+    second: hammer_character_34
+  - first:
+      213: -2116184289206326294
+    second: hammer_character_35
+  - first:
+      213: 243446636524542990
+    second: hammer_character_36
+  - first:
+      213: -7410503071792126543
+    second: hammer_character_37
+  - first:
+      213: 2471895515210729353
+    second: hammer_character_38
+  - first:
+      213: 6595570797821140762
+    second: hammer_character_39
+  - first:
+      213: -6154618345944270732
+    second: hammer_character_40
+  - first:
+      213: -159716950561785082
+    second: hammer_character_41
+  - first:
+      213: -7499721639696316664
+    second: hammer_character_42
+  - first:
+      213: -9098383544626189567
+    second: hammer_character_43
+  - first:
+      213: 7644730065987368698
+    second: hammer_character_44
+  - first:
+      213: -3876948512822716342
+    second: hammer_character_45
+  - first:
+      213: 2556335113415924661
+    second: hammer_character_46
+  - first:
+      213: -3251825909344720218
+    second: hammer_character_47
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hammer_character_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b142aec83deffa1e0800000000000000
+      internalID: -2184247109695691749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hammer_character_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deb8451a9ae2bc30800000000000000
+      internalID: 4373816135633125077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hammer_character_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98e822ebfb9f01b0800000000000000
+      internalID: -5688156298212218726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hammer_character_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1c752a4003011d0800000000000000
+      internalID: -3382150523693579784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hammer_character_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7609e9217465dd00800000000000000
+      internalID: 996813329729652351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hammer_character_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddb7fa6ef7ba3a40800000000000000
+      internalID: 5348789810800082397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hammer_character_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0283d6266e5d850800000000000000
+      internalID: 6401275755790606500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hammer_character_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3029e90e622f020800000000000000
+      internalID: 2374002699752571877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hammer_character_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd4da0945b5b74e0800000000000000
+      internalID: -1982890792163914315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hammer_character_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089f616ac4e879be0800000000000000
+      internalID: -1470550293457995392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hammer_character_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1e97718578a0350800000000000000
+      internalID: 5983743867335860660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hammer_character_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6935db21e1bc2e950800000000000000
+      internalID: 6476962544136049558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

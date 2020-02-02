@@ -23,9 +23,28 @@ public class PlayerController : MonoBehaviour
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         anim.SetFloat("MoveX", moveInput.x);
         anim.SetFloat("MoveY", moveInput.y);
-        if(anim.GetBool("HaveBox") == true || Input.GetKeyDown(KeyCode.Space))
+        if(anim.GetBool("HaveBox") == true && Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(Box, this.transform.position, Quaternion.identity);
+            if (Input.GetAxisRaw("Horizontal") == 1 || anim.GetFloat("LastMoveX") == 1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x + 1, this.transform.position.y), Quaternion.identity);
+                anim.SetBool("HaveBox", false);
+            }
+            if (Input.GetAxisRaw("Horizontal") == -1 || anim.GetFloat("LastMoveX") == -1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x - 1, this.transform.position.y), Quaternion.identity);
+                anim.SetBool("HaveBox", false);
+            }
+            if (Input.GetAxisRaw("Vertical") == 1 || anim.GetFloat("LastMoveY") == 1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y + 1), Quaternion.identity);
+                anim.SetBool("HaveBox", false);
+            }
+            if (Input.GetAxisRaw("Vertical") == -1 || anim.GetFloat("LastMoveY") == -1)
+            {
+                Instantiate(Box, new Vector2(this.transform.position.x, this.transform.position.y -1), Quaternion.identity);
+                anim.SetBool("HaveBox", false);
+            }
         }
         if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
         {
