@@ -9909,6 +9909,156 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
   sounds:
+  - name: Steps
+    clip: {fileID: 8300000, guid: 9a5f554ab784d08468ed36b976f3ac4c, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: BulbBreak
+    clip: {fileID: 8300000, guid: 253278bd36b570e40a4df071bf6c8848, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: CrateBreak
+    clip: {fileID: 8300000, guid: b75f25336980bb84c91e903228704d2d, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: GlassBreak
+    clip: {fileID: 8300000, guid: 70fe3815d2f16a840b2cd0cccfb3b483, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: DuckTape
+    clip: {fileID: 8300000, guid: 2015fc693b718cb4b88d4f9fd123ee79, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: PickUp
+    clip: {fileID: 8300000, guid: ed3e1be55ebd56e48895a37cf3717d0a, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: Hum
+    clip: {fileID: 8300000, guid: c70689d6cc9216b4a9e9a01d8b7baff2, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: ButtonPress
+    clip: {fileID: 8300000, guid: a9286a325c1cb38478a61c4623ee4e23, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: ButtonRelease
+    clip: {fileID: 8300000, guid: d2a7296a20dfb7f4489d9d9aa9ef8f68, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: ButtonSustain
+    clip: {fileID: 8300000, guid: ab38b4f13257a114c8acb694f3b98023, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: DoorB
+    clip: {fileID: 8300000, guid: 2dbf1f8accbfa9f47ba1591319b3eae4, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: Fan
+    clip: {fileID: 8300000, guid: 5c4c2f8c417d38441a28585798e4c467, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: DoorA
+    clip: {fileID: 8300000, guid: 3392167ef674ab442843e364be898d4e, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: MusicA
+    clip: {fileID: 8300000, guid: 3c34c892a70a8784e8795970e216854d, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
+  - name: steps
+    clip: {fileID: 8300000, guid: 9a5f554ab784d08468ed36b976f3ac4c, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 6edcebd1ca5bba24eb1213417d8eed23, type: 2}
+    source: {fileID: 0}
+    spatialBlend: 0
   - name: steps
     clip: {fileID: 8300000, guid: 9a5f554ab784d08468ed36b976f3ac4c, type: 3}
     volume: 1
