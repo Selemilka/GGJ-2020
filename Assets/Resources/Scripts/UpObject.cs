@@ -12,24 +12,28 @@ public class UpObject : MonoBehaviour
         {
             Debug.Log("something happened");
             collision.GetComponent<Animator>().SetBool("HaveBox", true);
+            FindObjectOfType<AudioManager>().Play(AudioNames.PickUp);
             Destroy(Object);
         }
         if (Input.GetKeyUp(KeyCode.Space) && collision.GetComponent<Animator>().GetBool("HaveH") == false && Object.tag == "Hummer")
         {
             Debug.Log("something happened");
             collision.GetComponent<Animator>().SetBool("HaveH", true);
+            FindObjectOfType<AudioManager>().Play(AudioNames.PickUp);
             Destroy(Object);
         }
         if (Input.GetKeyUp(KeyCode.Space) && collision.GetComponent<Animator>().GetBool("HaveBH") == false && Object.tag == "BigHummer")
         {
             Debug.Log("something happened");
             collision.GetComponent<Animator>().SetBool("HaveBH", true);
+            FindObjectOfType<AudioManager>().Play(AudioNames.PickUp);
             Destroy(Object);
         }
         if (Input.GetKeyUp(KeyCode.Space) && collision.GetComponent<Animator>().GetBool("HaveTape") == false && Object.tag == "Tape")
         {
             Debug.Log("something happened");
             collision.GetComponent<Animator>().SetBool("HaveTape", true);
+            FindObjectOfType<AudioManager>().Play(AudioNames.PickUp);
             Destroy(Object);
         }
     }
