@@ -5,7 +5,7 @@ using UnityEngine;
 public class ButtonDown : MonoBehaviour
 {
     // Start is called before the first frame update
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if(collision.tag == "Box")
         {
